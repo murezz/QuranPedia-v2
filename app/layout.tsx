@@ -29,7 +29,7 @@ export default function RootLayout({
       >
         {children}
       </body>
-      <footer className="text-xs text-center text-gray-300 py-4">
+      <footer className="text-xs text-center dark:text-gray-300 py-4">
         <p>© 2026 Muhammad Reza. All rights reserved.</p>
       </footer>
     </html>

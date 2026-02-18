@@ -33,7 +33,7 @@ export default async function SurahDetail({
                   <h1>
                     Surah ke {ayat.nomor} 
                   </h1>
-                  <p className="text-sm text-gray-300 capitalize">
+                  <p className="text-sm dark:text-gray-300 capitalize">
                     {ayat.tempat_turun} | {ayat.jumlah_ayat} ayat
                   </p>
                 </div>
@@ -61,7 +61,7 @@ export default async function SurahDetail({
                     <span className="text-xs px-2">({surah.nomor})</span>
                   </h2>
                   <p className="text-sm text-green-600">{surah.tr}</p>
-                  <p className="text-sm text-gray-300">{surah.idn}</p>
+                  <p className="text-sm dark:text-gray-300">{surah.idn}</p>
                 </div>
                 <div className="h-px w-full bg-linear-to-r from-transparent via-gray-500 to-transparent"></div>
               </div>

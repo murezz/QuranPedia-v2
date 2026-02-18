@@ -24,15 +24,15 @@ export default async function Surah() {
               className="flex justify-between rounded border border-gray-600 px-4 py-4  transition-colors hover:border-none hover:shadow-lg hover:shadow-green-600/50"
             >
               <div className="flex items-center gap-3">
-                <div className="text-sm text-gray-200">{surah.nomor}.</div>
+                <div className="text-sm dark:text-gray-200">{surah.nomor}.</div>
                 <div>
                   <div className="font-semibold">{surah.nama_latin}</div>
-                  <div className="text-sm text-gray-200">{surah.arti}</div>
+                  <div className="text-sm dark:text-gray-200">{surah.arti}</div>
                 </div>
               </div>
               <div className="text-right">
                 <div className="font-semibold">{surah.nama}</div>
-                <div className="text-sm text-gray-200">{surah.jumlah_ayat} Ayat</div>
+                <div className="text-sm dark:text-gray-200">{surah.jumlah_ayat} Ayat</div>
               </div>
             </div>
           </Link>

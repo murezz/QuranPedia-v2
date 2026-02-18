@@ -6,7 +6,7 @@ export default async function Home() {
       <div className="text-center">
         <div className="mb-3">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</div>
         <div className="font-semibold">Welcome to QuranPedia v2</div>
-        <div className="text-sm text-gray-300">app will be progress ...</div>
+        <div className="text-sm dark:text-gray-300">app will be progress ...</div>
         <div className="mt-5">
           <Link
             href={`/surah/`}
