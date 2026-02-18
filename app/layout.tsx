@@ -25,10 +25,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased px-2 py-4 md:px-12 `}
       >
         {children}
       </body>
+      <footer className="text-xs text-center text-gray-300 py-4">
+        <p>© 2026 Muhammad Reza. All rights reserved.</p>
+      </footer>
     </html>
   );
 }
