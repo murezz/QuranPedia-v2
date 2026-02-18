@@ -4,13 +4,13 @@ export default async function Home() {
   return (
     <main className="p-4 flex items-center justify-center min-h-screen">
       <div className="text-center">
-        <div className="mb-3">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</div>
-        <div className="font-semibold">Welcome to QuranPedia v2</div>
-        <div className="text-sm dark:text-gray-300">app will be progress ...</div>
+        <div className="mb-3 text-2xl">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</div>
+        <div className="font-semibold text-xl">Welcome to QuranPedia v2</div>
+        <div className="text-lg dark:text-gray-300">app will be progress ...</div>
         <div className="mt-5">
           <Link
             href={`/surah/`}
-            className="text-sm text-green-600 flex items-center gap-2 justify-center"
+            className="text-lg text-green-600 flex items-center gap-2 justify-center"
           >
             <span>Continue</span>{" "}
             <svg
